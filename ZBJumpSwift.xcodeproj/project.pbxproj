@@ -17,9 +17,12 @@
 		39F78ACB21F55E0600871F29 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F78ACA21F55E0600871F29 /* ProfileTableViewController.swift */; };
 		39F78ACD21F56ADA00871F29 /* AFNHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F78ACC21F56ADA00871F29 /* AFNHelper.swift */; };
 		39F78ACF21F56D2300871F29 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F78ACE21F56D2300871F29 /* AFNetworking.framework */; };
-		39F78AD321F59E1A00871F29 /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 39F78AD121F59E1A00871F29 /* MainVCSettings.json */; };
-		39F78AD421F59E1A00871F29 /* NullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F78AD221F59E1A00871F29 /* NullViewController.swift */; };
 		39F78AD621F5A55300871F29 /* MJExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F78AD521F5A55300871F29 /* MJExtension.framework */; };
+		39F78AD821F5BA0100871F29 /* ZBBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F78AD721F5BA0100871F29 /* ZBBaseTableViewController.swift */; };
+		39F78ADA21F5BA3100871F29 /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 39F78AD921F5BA3100871F29 /* MainVCSettings.json */; };
+		39F78AEA21F5CC3B00871F29 /* NibloadProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F78AE921F5CC3B00871F29 /* NibloadProtocol.swift */; };
+		39F78AEC21F5CC6400871F29 /* UnLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F78AEB21F5CC6400871F29 /* UnLoginView.swift */; };
+		39F78AEE21F5CC7D00871F29 /* UnLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39F78AED21F5CC7D00871F29 /* UnLoginView.xib */; };
 		5EEFD902C72E2242A3DBC51B /* Pods_ZBJumpSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD58FDBEF737A374237561FA /* Pods_ZBJumpSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,9 +39,12 @@
 		39F78ACA21F55E0600871F29 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
 		39F78ACC21F56ADA00871F29 /* AFNHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFNHelper.swift; sourceTree = "<group>"; };
 		39F78ACE21F56D2300871F29 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		39F78AD121F59E1A00871F29 /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
-		39F78AD221F59E1A00871F29 /* NullViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NullViewController.swift; sourceTree = "<group>"; };
 		39F78AD521F5A55300871F29 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F78AD721F5BA0100871F29 /* ZBBaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBBaseTableViewController.swift; sourceTree = "<group>"; };
+		39F78AD921F5BA3100871F29 /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
+		39F78AE921F5CC3B00871F29 /* NibloadProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibloadProtocol.swift; sourceTree = "<group>"; };
+		39F78AEB21F5CC6400871F29 /* UnLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnLoginView.swift; sourceTree = "<group>"; };
+		39F78AED21F5CC7D00871F29 /* UnLoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UnLoginView.xib; sourceTree = "<group>"; };
 		417B560BBB93A6917B4CA764 /* Pods-ZBJumpSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBJumpSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZBJumpSwift/Pods-ZBJumpSwift.release.xcconfig"; sourceTree = "<group>"; };
 		7FFADCAA3868127121367226 /* Pods-ZBJumpSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBJumpSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZBJumpSwift/Pods-ZBJumpSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		CD58FDBEF737A374237561FA /* Pods_ZBJumpSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZBJumpSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +118,7 @@
 		39F78ABA21F558F000871F29 /* Public */ = {
 			isa = PBXGroup;
 			children = (
+				39F78AE921F5CC3B00871F29 /* NibloadProtocol.swift */,
 				39F78ACC21F56ADA00871F29 /* AFNHelper.swift */,
 			);
 			path = Public;
@@ -129,7 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				39F78AC421F55DE200871F29 /* HomeTableViewController.swift */,
-				39F78AD021F59E1A00871F29 /* Resource */,
+				39F78AD921F5BA3100871F29 /* MainVCSettings.json */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -154,17 +161,11 @@
 			isa = PBXGroup;
 			children = (
 				39F78AC221F55DB700871F29 /* BaseTabBarViewController.swift */,
+				39F78AD721F5BA0100871F29 /* ZBBaseTableViewController.swift */,
+				39F78AEB21F5CC6400871F29 /* UnLoginView.swift */,
+				39F78AED21F5CC7D00871F29 /* UnLoginView.xib */,
 			);
 			path = BaseController;
-			sourceTree = "<group>";
-		};
-		39F78AD021F59E1A00871F29 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				39F78AD121F59E1A00871F29 /* MainVCSettings.json */,
-				39F78AD221F59E1A00871F29 /* NullViewController.swift */,
-			);
-			path = Resource;
 			sourceTree = "<group>";
 		};
 		7FFE4F7E48D9DCDB00B8D8E0 /* Pods */ = {
@@ -246,8 +247,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39F78AD321F59E1A00871F29 /* MainVCSettings.json in Resources */,
 				39F78AAD21F556BD00871F29 /* Assets.xcassets in Resources */,
+				39F78AEE21F5CC7D00871F29 /* UnLoginView.xib in Resources */,
+				39F78ADA21F5BA3100871F29 /* MainVCSettings.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,12 +303,14 @@
 			files = (
 				39F78AAB21F556B200871F29 /* ZBJumpSwift.xcdatamodeld in Sources */,
 				39F78AA321F556B200871F29 /* AppDelegate.swift in Sources */,
+				39F78AEC21F5CC6400871F29 /* UnLoginView.swift in Sources */,
 				39F78AC321F55DB700871F29 /* BaseTabBarViewController.swift in Sources */,
 				39F78AC721F55DF200871F29 /* DiscoverTableViewController.swift in Sources */,
-				39F78AD421F59E1A00871F29 /* NullViewController.swift in Sources */,
+				39F78AEA21F5CC3B00871F29 /* NibloadProtocol.swift in Sources */,
 				39F78AC521F55DE200871F29 /* HomeTableViewController.swift in Sources */,
 				39F78ACB21F55E0600871F29 /* ProfileTableViewController.swift in Sources */,
 				39F78AC921F55DFB00871F29 /* MessageTableViewController.swift in Sources */,
+				39F78AD821F5BA0100871F29 /* ZBBaseTableViewController.swift in Sources */,
 				39F78ACD21F56ADA00871F29 /* AFNHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
