@@ -1,0 +1,6 @@
+framework module Pods_ZBJumpSwift {
+  umbrella header "Pods-ZBJumpSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
