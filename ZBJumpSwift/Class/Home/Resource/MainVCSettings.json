@@ -1,0 +1,30 @@
+[
+ {
+    "vcName": "HomeTableViewController",
+    "title": "首页",
+    "imageName": "tabbar_home",
+    "selectImageName": "tabbar_home_highlighted",
+
+ },
+ {
+     "vcName": "MessageTableViewController",
+     "title": "消息",
+     "imageName": "tabbar_message_center",
+     "selectImageName": "tabbar_message_center",
+
+ },
+ {
+     "vcName": "DiscoverTableViewController",
+     "title": "广场",
+     "imageName": "tabbar_discover",
+     "selectImageName": "tabbar_discover_highlighte",
+
+ },
+ {
+     "vcName": "ProfileTableViewController",
+     "title": "我",
+     "imageName": "tabbar_profile",
+     "selectImageName": "tabbar_profile_highlighted",
+
+ }
+ ]

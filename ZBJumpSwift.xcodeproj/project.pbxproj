@@ -17,11 +17,14 @@
 		39F78ACB21F55E0600871F29 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F78ACA21F55E0600871F29 /* ProfileTableViewController.swift */; };
 		39F78ACD21F56ADA00871F29 /* AFNHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F78ACC21F56ADA00871F29 /* AFNHelper.swift */; };
 		39F78ACF21F56D2300871F29 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F78ACE21F56D2300871F29 /* AFNetworking.framework */; };
+		39F78AD321F59E1A00871F29 /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 39F78AD121F59E1A00871F29 /* MainVCSettings.json */; };
+		39F78AD421F59E1A00871F29 /* NullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F78AD221F59E1A00871F29 /* NullViewController.swift */; };
+		39F78AD621F5A55300871F29 /* MJExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F78AD521F5A55300871F29 /* MJExtension.framework */; };
 		5EEFD902C72E2242A3DBC51B /* Pods_ZBJumpSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD58FDBEF737A374237561FA /* Pods_ZBJumpSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		39F78A9F21F556B200871F29 /* ZBJumpSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZBJumpSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F78A9F21F556B200871F29 /* WeiboSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiboSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F78AA221F556B200871F29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39F78AAA21F556B200871F29 /* ZBJumpSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZBJumpSwift.xcdatamodel; sourceTree = "<group>"; };
 		39F78AAC21F556BD00871F29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -33,6 +36,9 @@
 		39F78ACA21F55E0600871F29 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
 		39F78ACC21F56ADA00871F29 /* AFNHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFNHelper.swift; sourceTree = "<group>"; };
 		39F78ACE21F56D2300871F29 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F78AD121F59E1A00871F29 /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
+		39F78AD221F59E1A00871F29 /* NullViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NullViewController.swift; sourceTree = "<group>"; };
+		39F78AD521F5A55300871F29 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		417B560BBB93A6917B4CA764 /* Pods-ZBJumpSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBJumpSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZBJumpSwift/Pods-ZBJumpSwift.release.xcconfig"; sourceTree = "<group>"; };
 		7FFADCAA3868127121367226 /* Pods-ZBJumpSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBJumpSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZBJumpSwift/Pods-ZBJumpSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		CD58FDBEF737A374237561FA /* Pods_ZBJumpSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZBJumpSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39F78AD621F5A55300871F29 /* MJExtension.framework in Frameworks */,
 				39F78ACF21F56D2300871F29 /* AFNetworking.framework in Frameworks */,
 				5EEFD902C72E2242A3DBC51B /* Pods_ZBJumpSwift.framework in Frameworks */,
 			);
@@ -64,7 +71,7 @@
 		39F78AA021F556B200871F29 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				39F78A9F21F556B200871F29 /* ZBJumpSwift.app */,
+				39F78A9F21F556B200871F29 /* WeiboSwift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				39F78AC421F55DE200871F29 /* HomeTableViewController.swift */,
+				39F78AD021F59E1A00871F29 /* Resource */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -150,6 +158,15 @@
 			path = BaseController;
 			sourceTree = "<group>";
 		};
+		39F78AD021F59E1A00871F29 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				39F78AD121F59E1A00871F29 /* MainVCSettings.json */,
+				39F78AD221F59E1A00871F29 /* NullViewController.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		7FFE4F7E48D9DCDB00B8D8E0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +179,7 @@
 		95B984360C220CB289B22807 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				39F78AD521F5A55300871F29 /* MJExtension.framework */,
 				39F78ACE21F56D2300871F29 /* AFNetworking.framework */,
 				CD58FDBEF737A374237561FA /* Pods_ZBJumpSwift.framework */,
 			);
@@ -187,7 +205,7 @@
 			);
 			name = ZBJumpSwift;
 			productName = ZBJumpSwift;
-			productReference = 39F78A9F21F556B200871F29 /* ZBJumpSwift.app */;
+			productReference = 39F78A9F21F556B200871F29 /* WeiboSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -228,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39F78AD321F59E1A00871F29 /* MainVCSettings.json in Resources */,
 				39F78AAD21F556BD00871F29 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,10 +262,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ZBJumpSwift/Pods-ZBJumpSwift-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -282,6 +303,7 @@
 				39F78AA321F556B200871F29 /* AppDelegate.swift in Sources */,
 				39F78AC321F55DB700871F29 /* BaseTabBarViewController.swift in Sources */,
 				39F78AC721F55DF200871F29 /* DiscoverTableViewController.swift in Sources */,
+				39F78AD421F59E1A00871F29 /* NullViewController.swift in Sources */,
 				39F78AC521F55DE200871F29 /* HomeTableViewController.swift in Sources */,
 				39F78ACB21F55E0600871F29 /* ProfileTableViewController.swift in Sources */,
 				39F78AC921F55DFB00871F29 /* MessageTableViewController.swift in Sources */,
@@ -421,7 +443,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jump.ZBJumpSwift;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WeiboSwift;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -442,7 +464,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jump.ZBJumpSwift;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WeiboSwift;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
