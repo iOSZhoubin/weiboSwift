@@ -28,11 +28,8 @@ class ZBBaseTableViewController: UITableViewController {
     
     //未登录情况下显示的view
     func setupNologinView(){
-
-        // 加载demoview
-//        let demoView = UnLoginView.loadFromNib()
-//        demoView.name = "why"
-//        view.addSubview(demoView)
+        
+  
 
     }
 }
