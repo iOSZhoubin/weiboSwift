@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3974B3AD21F6C43E00D20BE8 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974B3AC21F6C43E00D20BE8 /* HeaderView.swift */; };
+		39C9B27621F6C5F600B2AA59 /* UtilsMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9B27521F6C5F600B2AA59 /* UtilsMacros.swift */; };
+		39C9B27921F6C70600B2AA59 /* DicCoverDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9B27721F6C70600B2AA59 /* DicCoverDetailTableViewCell.swift */; };
+		39C9B27A21F6C70600B2AA59 /* DicCoverDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39C9B27821F6C70600B2AA59 /* DicCoverDetailTableViewCell.xib */; };
 		39F78AA321F556B200871F29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F78AA221F556B200871F29 /* AppDelegate.swift */; };
 		39F78AAB21F556B200871F29 /* ZBJumpSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39F78AA921F556B200871F29 /* ZBJumpSwift.xcdatamodeld */; };
 		39F78AAD21F556BD00871F29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39F78AAC21F556BD00871F29 /* Assets.xcassets */; };
@@ -25,6 +29,10 @@
 
 /* Begin PBXFileReference section */
 		3974B3A721F6A5A700D20BE8 /* JumpSwiftPch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JumpSwiftPch.pch; sourceTree = "<group>"; };
+		3974B3AC21F6C43E00D20BE8 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		39C9B27521F6C5F600B2AA59 /* UtilsMacros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilsMacros.swift; sourceTree = "<group>"; };
+		39C9B27721F6C70600B2AA59 /* DicCoverDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicCoverDetailTableViewCell.swift; sourceTree = "<group>"; };
+		39C9B27821F6C70600B2AA59 /* DicCoverDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DicCoverDetailTableViewCell.xib; sourceTree = "<group>"; };
 		39F78A9F21F556B200871F29 /* WeiboSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiboSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F78AA221F556B200871F29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39F78AAA21F556B200871F29 /* ZBJumpSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZBJumpSwift.xcdatamodel; sourceTree = "<group>"; };
@@ -86,6 +94,7 @@
 				39F78AB121F556BD00871F29 /* Info.plist */,
 				39F78AA921F556B200871F29 /* ZBJumpSwift.xcdatamodeld */,
 				3974B3A721F6A5A700D20BE8 /* JumpSwiftPch.pch */,
+				39C9B27521F6C5F600B2AA59 /* UtilsMacros.swift */,
 			);
 			path = ZBJumpSwift;
 			sourceTree = "<group>";
@@ -123,6 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				39F78AC621F55DF200871F29 /* DiscoverTableViewController.swift */,
+				39C9B27721F6C70600B2AA59 /* DicCoverDetailTableViewCell.swift */,
+				39C9B27821F6C70600B2AA59 /* DicCoverDetailTableViewCell.xib */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -148,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				39F78ACA21F55E0600871F29 /* ProfileTableViewController.swift */,
+				3974B3AC21F6C43E00D20BE8 /* HeaderView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -241,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39F78AAD21F556BD00871F29 /* Assets.xcassets in Resources */,
+				39C9B27A21F6C70600B2AA59 /* DicCoverDetailTableViewCell.xib in Resources */,
 				39F78ADA21F5BA3100871F29 /* MainVCSettings.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,11 +307,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				39F78AAB21F556B200871F29 /* ZBJumpSwift.xcdatamodeld in Sources */,
+				39C9B27621F6C5F600B2AA59 /* UtilsMacros.swift in Sources */,
 				39F78AA321F556B200871F29 /* AppDelegate.swift in Sources */,
 				39F78AC321F55DB700871F29 /* BaseTabBarViewController.swift in Sources */,
 				39F78AC721F55DF200871F29 /* DiscoverTableViewController.swift in Sources */,
 				39F78AC521F55DE200871F29 /* HomeTableViewController.swift in Sources */,
 				39F78ACB21F55E0600871F29 /* ProfileTableViewController.swift in Sources */,
+				39C9B27921F6C70600B2AA59 /* DicCoverDetailTableViewCell.swift in Sources */,
+				3974B3AD21F6C43E00D20BE8 /* HeaderView.swift in Sources */,
 				39F78AC921F55DFB00871F29 /* MessageTableViewController.swift in Sources */,
 				39F78AD821F5BA0100871F29 /* ZBBaseTableViewController.swift in Sources */,
 				39F78ACD21F56ADA00871F29 /* AFNHelper.swift in Sources */,

@@ -16,7 +16,7 @@ class ZBBaseTableViewController: UITableViewController {
     }
     
     ///用户是否登录，没有登录就创建登录界面
-    var userLogin = false
+    var userLogin = true
     
     override func loadView() {
         
@@ -30,6 +30,7 @@ class ZBBaseTableViewController: UITableViewController {
     func setupNologinView(){
         
   
+        print("创建默认显示的view")
 
     }
 }
