@@ -1,9 +1,9 @@
 //
-//  HeaderView.swift
-//  PatternBusiness
+//  AppDelegate.swift
+//  ZBJumpSwift
 //
-//  Created by 乔木 on 2018/5/31.
-//  Copyright © 2018年 乔木. All rights reserved.
+//  Created by jumpapp1 on 2019/1/21.
+//  Copyright © 2019年 zb. All rights reserved.
 //
 
 import UIKit
